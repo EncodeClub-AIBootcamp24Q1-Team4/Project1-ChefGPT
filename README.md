@@ -10,10 +10,8 @@
 
 3. Change to the directory of the desired project.
    ```
-   cd Project<#>
+   cd EncodeClub-AIBootcamp24Q1-Team4/Project1-ChefGPT
    ```
-   Where # is:
-   * 1 - ChefGPT application
 4. Create Python Virtual Environment
    ```
    python -m venv venv
@@ -43,7 +41,7 @@ The ChefGPT application uses LLMs to simulate a chef.  It has 4 different roles 
 
 To run the application, simply type:
 ```
-python Project1/main.py [<uniqueid>]
+python main.py [<uniqueid>]
 ```
 unique id is optional.  When not provided, 3 chefs will be picked at random.  When the unique id is provided, all 3 chefs roles will be assumed by that given unique id.
 
@@ -61,5 +59,3 @@ team4_uniqueids = [
     "TySKci", # @alex 
 ]
 ```
-
-    
